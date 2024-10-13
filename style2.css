@@ -44,9 +44,41 @@ body{
      
 }
 
+.modal-header{
+    background: coral;
+    padding: 15px;
+    color: #fff;
+}
+
+.modal-header h2, .modal-footer h3 {
+
+    margin: 0;
+    
+}
+
+
+.modal-body{
+
+  padding: 10px 20px;
+
+}
+
+
+
+.modal-footer{
+
+    background: coral;
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+
+
+}
+
+
 .closeBtn{
 
-    color: #CCC;
+    color: #fff;
     float: right;
     font-size: 30px;
 
