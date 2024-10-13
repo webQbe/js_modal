@@ -17,7 +17,7 @@ body{
 }
 
 .modal{
-    display: none; /* hide when page loads */ 
+    /* display: none; /* hide when page loads */ 
     position: fixed;
     z-index: 1; /* layer level */
     left: 0;
@@ -25,6 +25,17 @@ body{
     height: 100%;
     width: 100%;
     overflow: auto;
-    background-color: rgba(0, 0, 0, 0.2); /* red, green, blue, transparency */
+    background-color: rgba(0, 0, 0, 0.5); /* red, green, blue, transparency */
 
+}
+
+.modal-content{
+
+    background-color: #f4f4f4;
+    margin: 20% auto; 
+    /* top-bottom (10% move up / 30% move down ) & left-right (auto = middle)*/
+    padding: 20px;
+    width: 70%;
+    box-shadow:  0 5px 8px 0 rgba(0, 0, 0, 0.2),0 5px 8px 0 rgba(0, 0, 0, 0.17);
+     
 }
