@@ -39,3 +39,20 @@ body{
     box-shadow:  0 5px 8px 0 rgba(0, 0, 0, 0.2),0 5px 8px 0 rgba(0, 0, 0, 0.17);
      
 }
+
+.closeBtn{
+
+    color: #CCC;
+    float: right;
+    font-size: 30px;
+
+}
+
+
+.closeBtn:hover, .closeBtn:focus{
+
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+
+}
