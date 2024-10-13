@@ -5,10 +5,13 @@ var modal = document.getElementById('simpleModal');
 var modalBtn = document.getElementById('modalBtn');
 
 // Get close button
-var closeBtn = document.getElementById('closeBtn');
+var closeBtn = document.querySelector('.closeBtn');
 
-// listen for a click
+// listen for open click
 modalBtn.addEventListener('click', openModal);
+
+// listen for close click
+closeBtn.addEventListener('click', closeModal);
 
 // function to open modal
 function openModal(){
@@ -18,5 +21,13 @@ function openModal(){
         /* The code is making sure the modal (which is hidden initially, 
          with display: 'none') is now visible and takes up 
         the necessary space on the page. */
+
+}
+
+
+// function to close modal
+function closeModal(){
+
+    modal.style.display = 'none';
 
 }

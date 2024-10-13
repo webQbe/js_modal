@@ -17,7 +17,7 @@ body{
 }
 
 .modal{
-    /* display: none; /* hide when page loads */ 
+    display: none; /* hide when page loads */ 
     position: fixed;
     z-index: 1; /* layer level */
     left: 0;
