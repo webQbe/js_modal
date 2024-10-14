@@ -36,7 +36,8 @@ body{
     margin: 20% auto; 
     /* top-bottom (10% move up / 30% move down ) & left-right (auto = middle)*/
     /* padding: 20px; */
-    width: 70%;
+    /* width: 70%; */
+    width: 400px;
     box-shadow:  0 5px 8px 0 rgba(0, 0, 0, 0.2),0 5px 8px 0 rgba(0, 0, 0, 0.17);
     /* animating in 1 second */
     animation-name: modalopen;
